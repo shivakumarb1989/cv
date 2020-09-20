@@ -1,40 +1,45 @@
 body{
-  color: #40514E;
+  color: #eeeeee;
   margin: 0;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+  background-color: #393e46;
 }
 
 h1{
-  font-size: 5.625rem;
+  font-size: 4.625rem;
   margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
-  color: #66BFBF;
+  color: #393e46;
 }
 
 hr{
   width: 10%;
   border-style: dotted;
   border-width: 10px 0 0 0;
-  border-color: #EAF6F6;
+  border-color: #00adb5;
   margin: 50px auto 50px auto;
 }
 
 a{
-  color: #66BFBF;
+  color: #679b9b;
+}
+
+a:hover{
+  color: #00adb5;
 }
 
 h2{
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-weight: normal;
   font-family: 'Montserrat', sans-serif;
-  color: #66BFBF;
+  color: #eeeeee;
   padding-bottom: 10px;
 }
 
 h3{
   font-family: 'Montserrat', sans-serif;
-  color: #11999E;
+  color: #00adb5;
 }
 
 p{
@@ -55,7 +60,7 @@ p{
   position: relative;
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: #e0ece4;
+  background-color: #00adb5;
 }
 
 .web{
@@ -82,8 +87,8 @@ p{
 }
 
 .footer-link{
-  color: #11999E;
-  padding: 0 50px 0 50px;
+  color: #30475e;
+  margin: 10px 20px;
   text-decoration: none;
   font-weight: bold;
 }
@@ -105,12 +110,8 @@ p{
 }
 
 .bottom-container{
-  background-color: #66BFBF;
-  color: #EAF6F6;
-  padding: 50px 0 50px 0;
-}
-
-.copyright{
+  background-color: #eeeeee;
+  color: #6e6d6d;
   padding: 50px 0 50px 0;
 }
 
@@ -123,13 +124,13 @@ p{
     background-image: -ms-linear-gradient(top, #66BFBF, #11999E);
     background-image: -o-linear-gradient(top, #66BFBF, #11999E);
     background-image: linear-gradient(to bottom, #66BFBF, #11999E);
-    -webkit-border-radius: 40px;
-    -moz-border-radius: 40px;
-    border-radius: 40px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 100;
-    padding: 22px;
+    padding: 16px;
     margin: 50px auto 50px auto;
     -webkit-box-shadow: 1px 1px 5px 0 #000000;
     -moz-box-shadow: 1px 1px 5px 0 #000000;
@@ -151,8 +152,8 @@ p{
     background-image: -ms-linear-gradient(top, #11999E, #66BFBF);
     background-image: -o-linear-gradient(top, #11999E, #66BFBF);
     background-image: linear-gradient(to bottom, #11999E, #66BFBF);
-    -webkit-border-radius: 40px;
-    -moz-border-radius: 40px;
-    border-radius: 40px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
     text-decoration: none;
 }
