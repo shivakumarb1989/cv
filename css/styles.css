@@ -171,4 +171,7 @@ p{
 
 .copyright{
   font-size: 0.75rem;
+  width: 10%;
+  padding-top: 10px;
+  margin: auto;
 }
